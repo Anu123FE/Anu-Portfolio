@@ -254,14 +254,14 @@ button:focus,
 }
 
 .title {
-  text-align: string;
+  text-align: center;
   font-style: italic;
 }
 
 .grid-a {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr;
+-ms-grid-columns: 2fr;
   grid-template-columns: 2fr;
   -ms-grid-rows: 2fr 10px 2fr;
   grid-template-rows: 2fr 2fr;
@@ -310,11 +310,10 @@ button:focus,
     grid-gap: 10px;
   }
 
-  .grid_item: last-child {
+.grid_item: last-child {
     grid-column: auto/auto;
     grid-row: auto/auto;
-  }
-}
+    }
 
 h1 {
   font-size: 22px;

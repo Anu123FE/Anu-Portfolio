@@ -11,8 +11,8 @@
   --white: #fff;
   --blue: #00676e;
   --yellow: #ffe666;
-  --lavender: #779;
-  --red: #f00;
+  --lavender: #7799;
+  --red: #ff0000;
   --chrome: #edc655;
   --lightbeige: #fcffad;
   --fieryorange: #f76414;
@@ -216,30 +216,6 @@ button:focus,
   flex-grow: 1;
 }
 
-@media all and (max-width: 500px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media all and (min-width: 500px) and (max-width: 750px) {
-  .grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media all and (max-width: 750px) {
-  /* shared code */
-  .grid {
-    grid-gap: 10px;
-  }
-
-  .grid_item: last-child {
-    grid-column: auto/auto;
-    grid-row: auto/auto;
-  }
-}
-
 h1 {
   font-size: 22px;
 }
@@ -288,4 +264,28 @@ h1 {
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+@media all and (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media all and (min-width: 500px) and (max-width: 750px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media all and (max-width: 750px) {
+  /* shared code */
+  .grid {
+    grid-gap: 10px;
+  }
+
+  .grid_item: last-child {
+    grid-column: auto/auto;
+    grid-row: auto/auto;
+  }
 }
