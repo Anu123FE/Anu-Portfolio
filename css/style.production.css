@@ -114,7 +114,7 @@ button:focus,
   font-style: italic;
 }
 
-.footerpage--contact {
+.form--contact {
   font-style: italic;
 }
 
@@ -130,12 +130,14 @@ button:focus,
   border-style: inset;
 }
 
-.page-footer--about {
+.page--about {
   font-style: italic;
   border-style: ridge;
   border-color: #ff0000;
 }
-
+.page-footer {
+  font-style: italic;
+}
 * {
   box-sizing: border-box;
 }
