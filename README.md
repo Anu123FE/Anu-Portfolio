@@ -1,4 +1,12 @@
-# Anu-Portfolio
+# Project name: Portfolio
 
-Welcome to my portfolio repo!
-Published At:  https://anu123fe.github.io/Anu-Portfolio/
+# Description: 
+- Welcome to my portfolio repo!
+
+# Tech Used:
+- HTML
+- CSS
+
+# Published At:  https://anu123fe.github.io/Anu-Portfolio/
+
+
