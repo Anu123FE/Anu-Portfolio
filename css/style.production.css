@@ -217,3 +217,8 @@ button:focus,
 h1 {
   font-size: 22px;
 }
+
+.thumbnail {
+  width: 550px;
+  height: 150px;
+}
