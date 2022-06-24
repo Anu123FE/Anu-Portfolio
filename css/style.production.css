@@ -194,7 +194,7 @@ main {
   background-color: #d3d3d3;
   padding: 20px;
   border-style: ridge;
-  border-color: #ff0000;
+  border-color: #98AFC7;
 }
 
 .title {
@@ -209,11 +209,10 @@ main {
   grid-gap: 10px;
   font-style: italic;
   border-style: ridge;
-  border-color: #ff0000;
+  border-color: #98AFC7;
 }
 
 .grid_item--a {
-  background-color: #d3d3d3;
   padding: 10px;
   border-style: ridge;
   flex-grow: 1;
