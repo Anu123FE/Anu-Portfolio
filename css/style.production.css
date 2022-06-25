@@ -154,7 +154,7 @@ button:focus,
 
 .page-header_item {
   width: 180px;
-  height: 180px;
+  height: 120px;
 }
 
 .page-header_item:last-child {
