@@ -124,12 +124,13 @@ button:focus,
   font-style: italic;
   text-align: center;
   border-style: inset;
+  border-bottom-color: #98AFC7;
 }
 
 .page--about {
   font-style: italic;
   border-style: ridge;
-  border-color: #ff0000;
+  border-color: #98AFC7;
 }
 .page-footer {
   font-style: italic;
